@@ -1,0 +1,12 @@
+Package: nycwastewater
+Title: COVID Wastewater Rates in NYC
+Version: 0.0.0.9000
+Authors@R: 
+    person("Guy", "Tabachnick", , , role = c("aut", "cre"))
+Description: Generates a graph displaying weekly COVID wastewater rates in NYC.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
+Imports: tidyverse, lubridate
