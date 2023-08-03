@@ -14,6 +14,8 @@ nyc_cdc_wastewater <- cdc_wastewater %>%
   ungroup() %>% 
   filter(percentile != prev_percentile)
 
+saveRDS(nyc_cdc_wastewater, file = "Nycwastewater_shiny/cdc_wastewater_cleaned.Rdata")
+
 # Plot it
 png("NYC_wastewater_rates.png", width = 2000, height = 1000)
 
